@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-e2e-02
+  description: Python app that displays the time. Name demo-e2e-02
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: zahra-ehghaghi-org/demo-e2e-02
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
