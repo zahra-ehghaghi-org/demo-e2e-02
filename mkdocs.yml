@@ -1,0 +1,12 @@
+site_name: 'demo-e2e-02'
+site_description: 'Main documentation for the demo-e2e-02'
+repo_url: https://github.com/zahra-ehghaghi/demo-e2e-02
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
